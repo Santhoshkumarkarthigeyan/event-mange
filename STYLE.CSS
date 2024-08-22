@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    text-decoration: none;
+    background:white;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 40px;
+    margin-top: 5PX solid black;
+    padding: 30px;
+    width: 1300px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight:200;
+    color: skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color:purple;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right:25px ;
+}
+.reg-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+    align-items: center;
+    justify-content: center ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register{
+    background-color:gainsboro;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 70px #111;
+    backdrop-filter:blur(5px);
+    
+}
+
+.register h2{
+    color:skyblue;
+    text-transform: uppercase;
+}
+
+.register form{
+    width: 85%;
+    height: 300px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register input{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border: none; 
+    border-radius: 10px;
+    padding: 15px;
+    outline: none;
+    margin-bottom: 18px;
+    color: #0c0c0c;
+}
+#login{
+    background-image: url(SPIHER.jpg);
+    width: 1358px;
+    background-color: purple;
+}
+#EVENT{
+    width: 1358px;
+    height:400px;
+    background-color: purple;
+}
+.event-table{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: purple;
+}
+.event-two{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:purple; 
+}
+.e-one{
+    width: 350px;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+.e-one:hover{
+    cursor: pointer;
+}
+.e-two{
+    width: 350px;
+    border: 2px solid white;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+.e-two:hover{
+    cursor: pointer;
+}
+.e-three{
+    width: 350px;
+    border: 2px solid white;
+    margin-left:120px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+.e-three:hover{
+    cursor:pointer;
+}
+.e-four{
+    width: 350px;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+.e-fourr:hover{
+    cursor: pointer;
+}
+.e-five{
+    width: 350px;
+    border: 2px solid white;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+.e-five:hover{
+    cursor: pointer;
+}
+.e-six{
+    width: 350px;
+    border: 2px solid white;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+.e-six:hover{
+    cursor: pointer;
+}
